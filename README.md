@@ -1,2 +1,4 @@
 # lucasfm95.github.io
-site teste 
+site GitHub 
+
+url: https://lucasfm95.github.io/
