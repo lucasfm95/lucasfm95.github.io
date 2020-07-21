@@ -1,0 +1,11 @@
+body {
+    background-color: #ddd;
+}
+
+.align-items {
+    align-content: center;
+}
+
+.text-align {
+    text-align: center;
+}

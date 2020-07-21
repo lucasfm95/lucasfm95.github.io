@@ -1,0 +1,40 @@
+body {
+    background-color: #ddd;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 30px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center
+}
+
+.diplay-value-rgb {
+    width: 25px;
+    text-align: center;
+}
+
+.lbl-title-rgb {
+    width: 80px;
+    height: 17px;
+    text-align: left;
+    display:inline-block
+}
+
+#item-rgb {
+    margin: 20px;
+    height: 110px;
+    width: 250px;
+}
+
+footer {
+    margin: 30px;
+    text-align: center;
+}

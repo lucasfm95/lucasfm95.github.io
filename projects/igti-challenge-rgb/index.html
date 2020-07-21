@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IGTI Challage RGB</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h1>Challage RGB</h1>
+    <div class="main">
+        <div>
+            <label class="lbl-title-rgb">(R) Red:</label>
+            <input id="ipt-red-range" type="range" min="0" max="255">
+            <input id="ipt-red" type="text" class="diplay-value-rgb" value="0" disabled>
+        </div>
+        <div>
+            <label class="lbl-title-rgb">(G) Green:</label>
+            <input id="ipt-green-range" type="range" min="0" max="255">
+            <input id="ipt-green" type="text" class="diplay-value-rgb" value="0" disabled>
+        </div>
+        <div>
+            <label class="lbl-title-rgb">(B) Blue:</label>
+            <input id="ipt-blue-range" type="range" min="0" max="255">
+            <input id="ipt-blue" type="text" class="diplay-value-rgb" value="0" disabled>
+        </div>
+        <div id="item-rgb"></div>
+    </div>
+    <script src="./js/index.js"></script>
+
+    <footer>
+        <p>Development by Lucas Martins</p>
+    </footer>
+</body>
+
+</html>
